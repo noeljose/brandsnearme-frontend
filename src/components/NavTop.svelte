@@ -29,7 +29,7 @@
       align-items: center;
 
       img {
-        width: 80%;
+        height: 50px;
       }
     }
 
@@ -37,15 +37,26 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
 
       input {
         all: unset;
         width: 80%;
         height: 50px;
-        border: 0.5px #766f6f solid;
+        border: 5px #766f6f solid;
         border-right: 0;
         padding-left: 5px;
         font-family: "Roboto", sans-serif;
+        border-image: linear-gradient(
+            to right,
+            #4285f4 25%,
+            #db4437 25%,
+            #db4437 50%,
+            #f4b400 50%,
+            #f4b400 75%,
+            #0f9d58 75%
+          )
+          5;
       }
 
       button {
@@ -53,10 +64,19 @@
         all: unset;
         width: 10%;
         height: 50px;
-        border: 0.5px #766f6f solid;
+        border: 5px #766f6f solid;
         text-align: center;
         border-left: 0;
         transition: all 0.3s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+
+        border-image: linear-gradient(
+            to right,
+            #0f9d58 75%,
+            #f4b400 75%,
+            #f4b400 75%,
+            #4285f4 25%
+          )
+          5;
 
         i {
           text-shadow: 0 0 5px #fff;

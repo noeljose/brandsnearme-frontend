@@ -1,11 +1,11 @@
 <main>
   <div class="banner">
-    <img src="https://via.placeholder.com/1920x720" alt="" />
+    <img src="https://picsum.photos/id/1/1920/720" alt="" />
   </div>
 
   <div class="newEvents">
     <div class="card">
-      <img src="https://via.placeholder.com/200x200" alt="" />
+      <img src="https://picsum.photos/id/2/300/300" alt="" />
       <h3>Lorem, ipsum dolor.</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
@@ -13,7 +13,7 @@
       </p>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x200" alt="" />
+      <img src="https://picsum.photos/id/3/300/300" alt="" />
       <h3>Lorem, ipsum dolor.</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
@@ -21,7 +21,7 @@
       </p>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x200" alt="" />
+      <img src="https://picsum.photos/id/4/300/300" alt="" />
       <h3>Lorem, ipsum dolor.</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
@@ -29,7 +29,7 @@
       </p>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/200x200" alt="" />
+      <img src="https://picsum.photos/id/5/300/300" alt="" />
       <h3>Lorem, ipsum dolor.</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
@@ -44,10 +44,10 @@
     width: 80%;
     margin: 5vh auto;
 
-    // img {
-    //     width: 100%;
-    //     border-radius: 30px;
-    // }
+    img {
+      width: 100%;
+      border-radius: 30px;
+    }
   }
 
   .newEvents {
