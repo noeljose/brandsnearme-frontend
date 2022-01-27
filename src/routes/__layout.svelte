@@ -78,6 +78,11 @@
     padding: 0;
     margin: 0;
   }
+  :global(a) {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+  }
 
   :global(main) {
     width: 80%;

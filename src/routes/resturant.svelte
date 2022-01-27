@@ -10,6 +10,39 @@
       location: "lorem colony",
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwagoodfoodguide.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fburger3.jpg&f=1&nofb=1",
+
+      phone: "1234567899",
+
+      email: "test@123.com",
+      website: "https://d3box.com",
+
+      social : [
+        [
+          {company : "vimeo",
+          url: "http://d3box.in",
+          icon: "fab fa-vimeo-v",
+          color: "#2bb3e7"
+        },
+
+          {company : "facebook",
+          url: "http://d3box.in",
+          icon: "fab fa-facebook",
+          color: "#4267B2"
+        },
+
+          {company : "instagram",
+          url: "http://d3box.in",
+          icon: "fab fa-instagram",
+          color: "#e3224a"
+        },
+
+          {company : "twitter",
+          url: "http://d3box.in",
+          icon: "fab fa-twitter",
+          color: "#00a6e5"
+        }
+      ]
+      ]
     },
     {
       name: "name resturant",
@@ -18,6 +51,9 @@
       location: "lorem colony",
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwagoodfoodguide.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fburger3.jpg&f=1&nofb=1",
+        phone: "1234567899",
+
+      email: "test@123.com"
     },
     {
       name: "name resturant",
@@ -26,6 +62,9 @@
       location: "lorem colony",
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwagoodfoodguide.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fburger3.jpg&f=1&nofb=1",
+        phone: "1234567899",
+
+      email: "test@123.com"
     },
     {
       name: "name resturant",
@@ -34,6 +73,9 @@
       location: "lorem colony",
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwagoodfoodguide.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fburger3.jpg&f=1&nofb=1",
+        phone: "1234567899",
+
+      email: "test@123.com"
     },
     {
       name: "name resturant",
@@ -42,6 +84,9 @@
       location: "lorem colony",
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwagoodfoodguide.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fburger3.jpg&f=1&nofb=1",
+        phone: "1234567899",
+
+      email: "test@123.com"
     },
   ];
 </script>

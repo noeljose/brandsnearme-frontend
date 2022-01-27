@@ -1,0 +1,278 @@
+[
+
+ {company : "vimeo",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "facebook",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "instagram",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "twitter",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "tumblr",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "urledin",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "whatsapp",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "snapchat",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "pinterest",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "reddit",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "youtube",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "deviantart",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "quora",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "meetup",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "twitch",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "vk",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "soundcloud",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "bubbly",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "flickr",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "influenster",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "yelp",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "etoro",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "xing",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "meetme",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "giphy",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "skype",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "viber",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "line",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "LINE play",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "telegram",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "discord",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "myspace",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "imgur",
+ url: "wwww.d3box.in",
+ icon: "",},
+
+ {company : "urltree",
+ url: "wwww.d3box.in",
+ icon: "",}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#1: Triller
+#2. Periscope
+#3: Vimeo
+#4. Valence
+#5. Untappd
+#6. Elpha
+#7. Yubo
+#8. Peanut
+#9. Houseparty
+#10. Caffeine
+#11. Steemit
+#12. Baidu Tieba
+#13. 23snaps
+#14. Likee
+#15. 8tracks
+#16. Academia
+#17. Amikumu
+#18. aNobii
+#19. ASMALLWORLD
+#20. Athurls
+#21. BAND
+#22. beBee
+#23. blind
+#24. diaspora*
+#25. Fark
+#26. MeWe
+#27. Facebook
+#28: Instagram
+#29: Twitter
+#30: Tumblr
+#31: urledIn
+#32: WhatsApp
+#33: Snapchat
+#34: Pinterest
+#35: Reddit
+#36: YouTube
+#37: Mix
+#38: Tagged
+#39: Nextdoor
+#40: DeviantArt
+#41: Quora
+#42: Meetup
+#43: ReverbNation
+#44: Flixster
+#45: Goodreads
+#46: Twitch
+#47: CaringBridge
+#48: Wattpad
+#49: Viadeo
+#50: Crunchyroll
+#51: Skyrock
+#52: VK
+#53: MyHeritage
+#54: LiveJournal
+#55: Classmates
+#56: SoundCloud
+#57: Bubbly
+#58: Flickr
+#59: We Heart It
+#60: Influenster
+#61: FilmAffinity
+#62: Open Diary
+#63: Yelp
+#64: CollegeHumor
+#65: Gaia Online
+#66: MocoSpace
+#67: CouchSurfing
+#68: Funny or Die
+#69: italki
+#70: eToro
+#71: XING
+#72: MeetMe
+#73: Ravelry
+#74: Care2
+#75: YY
+#76: Vero
+#77: Medium
+#78: GIPHY
+#79: Tribe
+#80: Tencent QQ
+#81: WeChat
+#82: Qzone
+#83: TikTok
+#84: Sina Weibo
+#85: Kuaishou
+#86: Skype
+#87: Viber
+#88: LINE
+#89: LINE PLAY
+#90: The Dots
+#91: Telegram
+#92: Foursquare Swarm
+#93: Douban
+#94: Discord
+#95: Badoo
+#96: Myspace
+#97: Mixi
+#98: Ravelry
+#99: Cellufun
+#100: Xanga
+#101: Imgur
+#102: Ello
+#103. WT Social
+# 1. urltree
+#  2. Beacons
+# 3. Shorby
+# 4. urlin.bio
+# 5. Lnk.Bio
+# 6. Sked url
+# 7. url in Profile
+# 8. Milkshake.app
+# 9. Campsite
+# 10. ContactInBio

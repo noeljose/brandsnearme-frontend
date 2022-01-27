@@ -2,6 +2,7 @@
     export let data;
 
     let modalVisibility = false;
+
 </script>
 
 {#if modalVisibility}
@@ -18,9 +19,21 @@
                     <h3>{data.name}</h3>
                     <img src={data.image} alt="">
                     <p>{data.description}</p>
+                    <br>
+                    {#if data?.website}
+                    <a class="websiteButton" target="_blank" href={data.website}><i class="fab fa-internet-explorer"></i>&nbsp;Visit website</a>
+                    <br>
+                    {/if}
+                    <p>Phone: <b> {data.phone}</b> </p>
+                    <p>Email: <b>{data.email}</b></p>
                 </div>
                 <div class="social">
-                    <a target="_blank" href="https://facebook.com"><i class="fas fa-times-circle"></i> Facebook</a>
+                   {#if data?.social}
+                        {#each data.social[0] as media}
+                        <a style={`background-color: ${media.color}`} target="_blank" href={media.url}><i class={media.icon}></i> {media.company}</a>
+                        {/each}
+                   {/if}
+                    
                 </div>
             </div>
 
@@ -44,6 +57,9 @@
 
 <style lang="scss">
     .modal {
+
+   
+
         .data {
             width: 80vw;
             min-height: 80vh;
@@ -52,6 +68,15 @@
             top: 10vh;
             left: 10vw;
             z-index: 1;
+            border: 10px #766f6f solid;
+            border-image: linear-gradient(
+                            to right,
+                            #4285f4 25%,
+                            #db4437 25%,
+                            #db4437 50%,
+                            #f4b400 50%,
+                            #f4b400 75%,
+                            #0f9d58 75% )5;
 
             .close {
                 width: 100%;
@@ -73,6 +98,7 @@
                 margin: auto;
                 display: grid;    
                 grid-template-columns: 2fr 1fr;
+                
 
                 .visual{
                     h3 {
@@ -85,6 +111,42 @@
                         border-radius: 10px;
                         border: #f12711 10px solid;
                     }
+
+                    .websiteButton{
+                        display: inline-flex;
+                        background-color: red;
+                        font-size: 200%;
+                        padding: 20px;
+                        margin-bottom: 10px;
+                        text-decoration: none;
+                        color: #fff;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 5px #000;
+                        transition: 0.3s ease-in-out;
+                        &:hover {
+                            box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.733);
+                        }
+                    }
+                }
+
+                .social {
+                    width: 80%;
+
+                    a {
+                        display: block;
+                        font-size: 200%;
+                        padding: 20px;
+                        margin-bottom: 10px;
+                        text-decoration: none;
+                        color: #fff;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 5px #000;
+                        transition: 0.3s ease-in-out;
+                        &:hover {
+                            box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.733);
+                        }
+                    }
+
                 }
 
             }
