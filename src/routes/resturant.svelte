@@ -42,7 +42,15 @@
           color: "#00a6e5"
         }
       ]
-      ]
+      ],
+
+      offers: [[
+        {
+          offer : "10% off on biriyanis",
+          code: "biryani10off"
+  
+        }
+      ]]
     },
     {
       name: "name resturant",
