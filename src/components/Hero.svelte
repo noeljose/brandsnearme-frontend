@@ -8,28 +8,28 @@
     <button><i class="fas fa-search" /></button>
   </div>
 
-  <div class="option">
-    <i class="far fa-user-circle" />
-    <i class="fas fa-comment-dots" />
-    <i class="fas fa-sign-in-alt" />
-  </div>
+
 </div>
 
 <style lang="scss">
   .topBar {
     width: 100%;
-    height: 10vh;
-    display: grid;
-    grid-template-columns: 1.5fr 2fr 1fr;
-    background-color: #2e108e;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 
     .logo {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 10px;
 
       img {
-        height: 50px;
+        height: 100px;
       }
     }
 
@@ -37,12 +37,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden;
+
 
       input {
         all: unset;
         color: rgb(0, 0, 0);
-        width: 80%;
+        width: 50vw;
         height: 50px;
         border: 5px #909090 solid;
         border-right: 0;
@@ -84,20 +84,6 @@
       }
     }
 
-    .option {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      i {
-        font-size: 30px;
-        margin: 10px;
-        color: #ffffff;
-
-        &:hover {
-          color: #ff4f04;
-        }
-      }
-    }
+  
   }
 </style>

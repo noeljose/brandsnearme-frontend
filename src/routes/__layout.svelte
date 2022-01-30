@@ -5,6 +5,7 @@
 </script>
 
 <div class="nav">
+  {#if $page.url.pathname != "/"}
   <NavTop />
 
   <nav>
@@ -26,7 +27,7 @@
         </a>
 
         <a
-          class:selectedGrocery={$page.url.pathname === "/grocery"}
+          class:selected={$page.url.pathname === "/grocery"}
           href="/grocery"
         >
           <li>
@@ -35,7 +36,7 @@
         </a>
 
         <a
-          class:selectedMedical={$page.url.pathname === "/healthcare"}
+          class:selected={$page.url.pathname === "/healthcare"}
           href="/healthcare"
         >
           <li>
@@ -51,9 +52,14 @@
       </ul>
     </div>
   </nav>
+  {/if}
+  
+
+  
 </div>
 
 <slot />
+
 
 <Footer />
 
@@ -90,7 +96,9 @@
   }
 
   nav {
+   padding-top: 3vh;
     width: 100%;
+    background-color: #2e108e;
 
     .options {
       width: 100%;
@@ -103,7 +111,7 @@
         margin: auto;
 
         * {
-          color: #766f6f;
+          color: #ffffff;
           transition: color 0.3s;
         }
 
@@ -120,34 +128,12 @@
 
             i {
               color: #ff4f04;
+              
             }
           }
         }
 
-        .selectedMedical {
-          li {
-            border-top: 5px #ff0404 solid;
-            color: #ff0404;
-            cursor: pointer;
-
-            i {
-              color: #ff0404;
-            }
-          }
-        }
-
-        .selectedGrocery {
-          li {
-            border-top: 5px #0e9c26 solid;
-            color: #0e9c26;
-            cursor: pointer;
-
-            i {
-              color: #0e9c26;
-            }
-          }
-        }
-
+  
         li {
           width: 80%;
           text-align: center;
@@ -156,6 +142,10 @@
           font-family: "Roboto", sans-serif;
           font-weight: bolder;
 
+      
+            font-size: 24px;
+          
+
           &:hover {
             border-top: 5px #ff4f04 solid;
             color: #ff4f04;
@@ -163,6 +153,7 @@
 
             i {
               color: #ff4f04;
+              
             }
           }
         }
